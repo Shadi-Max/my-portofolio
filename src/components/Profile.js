@@ -13,7 +13,7 @@ function Profile () {
                     <div className='title'>
                         <p>Hi, I'm</p>
                         <h1>Shadi Max</h1>
-                        <h3>Frontend Developer</h3>
+                        <h2>Frontend Developer</h2>
                     </div>
                     <div className='my-infos'>
                         <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
