@@ -44,20 +44,22 @@ i {
     background-color: #ffffff;
 }
 
-.navbar ul {
+ul {
     padding-left: 40px;
     list-style: none;
     display: flex;
 }
 
-.navbar li {
+li {
     padding: 15px;
     padding-top: 12px;
+    list-style: none;
     font-size: 1.1rem;
     transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
-.navbar a {
+a {
     padding: 3px 0px;
     border-radius: 16px;
     text-decoration: none;
@@ -67,7 +69,7 @@ i {
 }
 
 
-.navbar li a:hover {
+a:hover {
     color: #ee9972;
     text-decoration: underline;
     text-underline-offset: 0.7rem;
@@ -133,14 +135,14 @@ i {
 }
 
 button {
-    background-color: #000000;
+    background-color: rgb(58, 58, 58);
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     display: inline-block;
-    padding: 15px 15px;
     margin: 8px;
     font-size: 12px;
-    max-width: 200px;
+    width: 130px;
+    height: 50px;
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
@@ -160,14 +162,18 @@ button:hover {
 .social-links button {
     border-radius: 600px;
     font-size: 20px;
-    padding: 10px 12px;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
 }
 
 /* About */
 
-.about-me {
+.title {
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .cards {
@@ -178,13 +184,17 @@ button:hover {
 }
 
 .card-col {
-    border-color: #000000;
+    border-color: rgb(58, 58, 58);
     border-style: dotted;
     border-width: 3px;
-    margin: 17px;
+    margin: 17px ;
     padding: 30px 50px;
     border-radius: 30px;
     width: 30%;
+}
+
+.ui-title {
+    padding: 0 30px
 }
 
 .about .card-col {
@@ -192,11 +202,11 @@ button:hover {
 }
 
 .about-txt {
-    padding: 30px 50px;
+    padding: 30px 10%;
     text-align: justify;
 }
 
-.experience {
+.exp {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -210,7 +220,75 @@ button:hover {
     margin: 30px 5px;
 }
 
+/*Projects*/
 
+.card-col img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 25px;
+    padding: 0px;
+}
+
+.projects .card-col {
+    border-color: rgb(58, 58, 58);
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Footer*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact li {
+    padding: 0;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    border-color: rgb(58, 58, 58);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background: (250, 250, 250);
+    width: 430px;
+    height: 80px;
+}
+
+.contact-link-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    padding: 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 70px ;
+}
+
+.footer-nav a {
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+}
+
+.footer-nav ul {
+    padding: 0;
+}
+
+.copyright {
+    margin-bottom: 40px;
+}
 /* Responsive */
 
 @media screen and (max-width: 1024px){
@@ -280,6 +358,19 @@ button:hover {
 
     .card-col {
         width: 60%;
+        min-width: 200px;
     }
+
+    .contact-card {
+        flex-direction: column;
+        height: 120px;
+        max-width: 90%;
+        min-width: 200px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
 
 }

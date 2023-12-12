@@ -2,15 +2,15 @@ import './styles.css'
 
 function Experience () {
     return (
-        <div className='about'>
-            <div className='about-me'>
+        <div className='experience'>
+            <div className='title'>
                 <p>Explore My</p>
                 <h1>Experience</h1>
             </div>
             <div className='cards'>
                 <div className='card-col'>
                     <h4>Frontend Developement</h4>
-                    <div className='experience'>
+                    <div className='exp'>
                         <div className='exp-col'>
                             <div className='exp-card'>
                                 <i className="fa-brands fa-html5"></i>
@@ -48,8 +48,8 @@ function Experience () {
                     </div>
                 </div>
                 <div className='card-col'>
-                    <h4>UI/UX & Other Skills</h4>
-                    <div className='experience'>
+                    <h4 className='ui-title'>UI/UX & Other Skills</h4>
+                    <div className='exp'>
                         <div className='exp-col'>
                             <div className='exp-card'>
                                 <i class="fa-brands fa-node-js"></i>
@@ -87,7 +87,6 @@ function Experience () {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }
