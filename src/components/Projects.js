@@ -39,12 +39,12 @@ function Projects () {
             <div className='cards'>
                 <div className='card-col'>
                     <img src={ProjetPhoto3} alt='Project 3'></img>
-                    <h4>Project Three</h4>
+                    <h4>Simple Weather App</h4>
                     <div className='project-btn'>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/Weather-app')}>
                             Github
                         </button>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://weather-app-shadi.netlify.app/')}>
                             Live Demo
                         </button>
                     </div>
