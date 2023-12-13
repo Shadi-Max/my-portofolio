@@ -2,7 +2,7 @@ import './styles.css'
 
 function Experience () {
     return (
-        <div className='experience'>
+        <div id='experience' className='experience'>
             <div className='title'>
                 <p>Explore My</p>
                 <h1>Experience</h1>

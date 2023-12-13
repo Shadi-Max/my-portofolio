@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 function Footer () {
     return (
         <div className='footer'>
@@ -10,29 +12,57 @@ function Footer () {
                     <div className='contact-link-container'>
                         <i class="fa-solid fa-envelope"></i>
                         <li>
-                            <a href="/">shadimaks93@gmail.com</a>
+                            <a href="mailto:shadimaks93@gmail.com">shadimaks93@gmail.com</a>
                         </li>
                     </div>
                     <div className='contact-link-container'>
                         <i className="fa-brands fa-linkedin"></i>
                         <li>
-                            <a href="/">linkdIn</a>
+                            <a onClick={() => window.open('https://www.linkedin.com/in/shadi-max-0572a82a4/')}>linkdIn</a>
                         </li>
                     </div>
                 </div>
                 <div className="footer-nav">
                     <ul>
                         <li>
-                            <a href="/">About</a>
+                            <Link
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                About
+                            </Link>
                         </li>
                         <li>
-                            <a href="/menu">Experience</a>
+                            <Link
+                                to="experience"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                Experience
+                            </Link>
                         </li>
                         <li>
-                            <a href="/reservation">Projects</a>
+                            <Link
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                Projects
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <Link
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                            >
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>

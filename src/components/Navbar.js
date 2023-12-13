@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import './styles.css'
 
 class Nav extends Component {
     state = { clicked: false};
+
     handleClick = () =>{
-        this.setState({clicked: !this.state.clicked})
-    }
+        this.setState({clicked: !this.state.clicked});
+    };
+
     render () {
     return (
         <nav className="navbar">
@@ -17,16 +20,48 @@ class Nav extends Component {
                 <ul className={this.state.clicked ?
                 ".navbar ul active" : ".navbar ul"}>
                     <li>
-                        <a href="#about">About</a>
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            onClick={this.handleClick}
+                        >
+                                About
+                        </Link>
                     </li>
                     <li>
-                        <a href="/menu">Experience</a>
+                        <Link
+                            to="experience"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            onClick={this.handleClick}
+                        >
+                                Experience
+                        </Link>
                     </li>
                     <li>
-                        <a href="/reservation">Projects</a>
+                        <Link
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            onClick={this.handleClick}
+                        >
+                                Projects
+                        </Link>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <Link
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            onClick={this.handleClick}
+                        >
+                                Contact
+                        </Link>
                     </li>
                 </ul>
             </div>

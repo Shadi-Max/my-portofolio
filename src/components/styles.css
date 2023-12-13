@@ -59,7 +59,7 @@ li {
     text-decoration: none;
 }
 
-a {
+link, a {
     padding: 3px 0px;
     border-radius: 16px;
     text-decoration: none;
@@ -69,12 +69,13 @@ a {
 }
 
 
-a:hover {
+link, a:hover {
     color: #ee9972;
     text-decoration: underline;
     text-underline-offset: 0.7rem;
     text-decoration-thickness: 2px;
     text-decoration-color: rgb(85, 85, 85);
+    cursor: pointer;
 }
 
 .logo {

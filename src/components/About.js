@@ -2,7 +2,7 @@ import './styles.css'
 
 function About () {
     return (
-        <>
+        <div id='about'>
             <div className='title'>
                 <p>Get to Know More </p>
                 <h1>About Me</h1>
@@ -30,7 +30,7 @@ function About () {
                     Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
                 </p>
             </div>
-        </>
+        </div>
     )
 }
 
