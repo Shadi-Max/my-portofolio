@@ -1,8 +1,14 @@
 import React from 'react';
 import './styles.css'
 import profilePhoto from '../assets/profile-photo.png';
+import pdfFile from '../assets/Lebenslauf-Shadi-Max.pdf';
+import { Link } from 'react-scroll';
 
 function Profile () {
+    const openPdfInNewTab = () => {
+        window.open(pdfFile, '_blank');
+    };
+
     return (
         <main>
             <div className='profile'>
@@ -16,12 +22,17 @@ function Profile () {
                         <h2>Frontend Developer</h2>
                     </div>
                     <div className='my-infos'>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf', '_blank')}>
+                        <button className='cv-btn' onClick={openPdfInNewTab}>
                             Download CV
                         </button>
-                        <button className='ct-btn' href="/">
-                            Contact Info
-                        </button>
+                        <Link className='btn-link'
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={100}
+                            >
+                                    Contact Info
+                        </Link>
                     </div>
                     <div className='social-links'>
                         <button className='s-btn' onClick={() => window.open('https://github.com/Shadi-Max')}>

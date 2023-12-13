@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 function Footer () {
     return (
         <div className='footer'>
-            <div className="contact">
+            <div id='contact' className="contact">
                 <div className='title'>
                     <p>Get In Touch</p>
                     <h1>Contact Me</h1>
@@ -29,7 +29,7 @@ function Footer () {
                                 to="about"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={100}
                             >
                                 About
                             </Link>
@@ -39,7 +39,7 @@ function Footer () {
                                 to="experience"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={100}
                             >
                                 Experience
                             </Link>
@@ -49,7 +49,7 @@ function Footer () {
                                 to="projects"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={100}
                             >
                                 Projects
                             </Link>
@@ -59,7 +59,7 @@ function Footer () {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={100}
                             >
                                 Contact
                             </Link>

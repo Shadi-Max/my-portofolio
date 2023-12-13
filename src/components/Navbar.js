@@ -24,7 +24,7 @@ class Nav extends Component {
                             to="about"
                             spy={true}
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             onClick={this.handleClick}
                         >
                                 About
@@ -35,7 +35,7 @@ class Nav extends Component {
                             to="experience"
                             spy={true}
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             onClick={this.handleClick}
                         >
                                 Experience
@@ -46,7 +46,7 @@ class Nav extends Component {
                             to="projects"
                             spy={true}
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             onClick={this.handleClick}
                         >
                                 Projects
@@ -57,7 +57,7 @@ class Nav extends Component {
                             to="contact"
                             spy={true}
                             smooth={true}
-                            duration={500}
+                            duration={100}
                             onClick={this.handleClick}
                         >
                                 Contact

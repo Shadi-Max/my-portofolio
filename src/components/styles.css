@@ -160,6 +160,36 @@ button:hover {
     border-color: #fff;
 }
 
+.btn-link {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(58, 58, 58);
+    padding-bottom: 0px;
+    padding-top: 14px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(58, 58, 58);
+    display: inline-block;
+    margin: 8px;
+    font-size: 12px;
+    width: 130px;
+    height: 33px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-link:hover {
+    background-color:#ee9972;
+    color: #000000;
+    border-color: #fff;
+    text-decoration: none;
+}
+
 .social-links button {
     border-radius: 600px;
     font-size: 20px;
