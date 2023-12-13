@@ -16,7 +16,7 @@ function Profile () {
                         <h2>Frontend Developer</h2>
                     </div>
                     <div className='my-infos'>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf', '_blank')}>
                             Download CV
                         </button>
                         <button className='ct-btn' href="/">
