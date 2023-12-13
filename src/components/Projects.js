@@ -30,7 +30,7 @@ function Projects () {
                         <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/my-portofolio')}>
                             Github
                         </button>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://portofolio-shadi-max.netlify.app/')}>
                             Live Demo
                         </button>
                     </div>
