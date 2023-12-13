@@ -18,7 +18,7 @@ function Footer () {
                     <div className='contact-link-container'>
                         <i className="fa-brands fa-linkedin"></i>
                         <li>
-                            <a onClick={() => window.open('https://www.linkedin.com/in/shadi-max-0572a82a4/')}>linkdIn</a>
+                            <a href="https://www.linkedin.com/in/shadi-max-0572a82a4/">linkdIn</a>
                         </li>
                     </div>
                 </div>
