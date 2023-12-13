@@ -227,6 +227,7 @@ button:hover {
     max-height: 90%;
     border-radius: 25px;
     padding: 0px;
+    margin-bottom: 10px;
 }
 
 .projects .card-col {

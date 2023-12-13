@@ -13,21 +13,21 @@ function Projects () {
             <div className='cards'>
                 <div className='card-col'>
                     <img src={ProjetPhoto1} alt='Project 1'></img>
-                    <h4>Project one</h4>
+                    <h4>Little Lemon Restaurant</h4>
                     <div className='project-btn'>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/little-lemon')}>
                             Github
                         </button>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://little-lemon-berlin.netlify.app/')}>
                             Live Demo
                         </button>
                     </div>
                 </div>
                 <div className='card-col'>
                     <img src={ProjetPhoto2} alt='Project 2'></img>
-                    <h4>Project two</h4>
+                    <h4>My Portofolio</h4>
                     <div className='project-btn'>
-                        <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
+                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/my-portofolio')}>
                             Github
                         </button>
                         <button className='cv-btn' onClick={() => window.open('./assets/lebenslauf-Shadi-Max.pdf')}>
