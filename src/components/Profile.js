@@ -7,7 +7,7 @@ function Profile () {
         <main>
             <div className='profile'>
                 <div className='profile-img'>
-                    <img src={profilePhoto} alt='Profile Photo'/>
+                    <img src={profilePhoto} alt='Profile'/>
                 </div>
                 <div className='profile-info'>
                     <div className='title'>
