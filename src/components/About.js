@@ -19,7 +19,7 @@ function About () {
                     <i className="fa-solid fa-building-columns"></i>
                     <h3>Education</h3>
                     <p>Meta Front-end Developer </p>
-                    <p>DCI Webdesign</p>
+                    <p>Professional Certificate</p>
                 </div>
             </div>
             <div className='about-txt'>
