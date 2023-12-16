@@ -24,10 +24,7 @@ function About () {
             </div>
             <div className='about-txt'>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis,
-                    nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                    Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
+                    Hi, I'm Shadi, a Junior Front-developer with a love for beautiful designs and colors. i try to create websites that are responive, functional with focusing on creating simple beautiful ashtetics.
                 </p>
             </div>
         </div>
