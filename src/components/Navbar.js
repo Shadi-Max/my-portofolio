@@ -6,7 +6,7 @@ class Nav extends Component {
     state = { clicked: false};
 
     handleClick = () =>{
-        this.setState({clicked: !this.state.clicked});
+        this.setState({clicked: !this.state.clicked}); // handling the state for hamburger menu
     };
 
     render () {

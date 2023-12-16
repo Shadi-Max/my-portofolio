@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 function Profile () {
     const openPdfInNewTab = () => {
-        window.open(pdfFile, '_blank');
+        window.open(pdfFile, '_blank');   //function to open PDF CV in a new window
     };
 
     return (
