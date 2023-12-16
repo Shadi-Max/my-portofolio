@@ -24,7 +24,7 @@ function About () {
             </div>
             <div className='about-txt'>
                 <p>
-                    Hi, I'm Shadi, a Junior Front-developer with a love for beautiful designs and colors. i try to create websites that are responive, functional with focusing on creating simple beautiful ashtetics.
+                    I'm Shadi, a Junior Front-End developer with a love for beautiful designs and colors. I try to create responsive, functional and user friendly websites with focusing on creating simple beautiful ashtetics.
                 </p>
             </div>
         </div>
