@@ -24,13 +24,13 @@ function Projects () {
                     </div>
                 </div>
                 <div className='card-col'>
-                    <img src={ProjetPhoto2} alt='Project 2'></img>
-                    <h4>My Portofolio</h4>
+                    <img src={ProjetPhoto3} alt='Project 2'></img>
+                    <h4>Cultural Events Website</h4>
                     <div className='project-btn'>
-                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/my-portofolio')}>
+                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/habibi-act')}>
                             Github
                         </button>
-                        <button className='cv-btn' onClick={() => window.open('https://portofolio-shadi-max.netlify.app/')}>
+                        <button className='cv-btn' onClick={() => window.open('https://habibi-act.netlify.app/')}>
                             Live Demo
                         </button>
                     </div>
@@ -38,13 +38,13 @@ function Projects () {
             </div>
             <div className='cards'>
                 <div className='card-col'>
-                    <img src={ProjetPhoto3} alt='Project 3'></img>
-                    <h4>Simple Weather App</h4>
+                    <img src={ProjetPhoto2} alt='Project 3'></img>
+                    <h4>My Portofolio</h4>
                     <div className='project-btn'>
-                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/Weather-app')}>
+                        <button className='cv-btn' onClick={() => window.open('https://github.com/Shadi-Max/my-portofolio')}>
                             Github
                         </button>
-                        <button className='cv-btn' onClick={() => window.open('https://weather-app-shadi.netlify.app/')}>
+                        <button className='cv-btn' onClick={() => window.open('https://portofolio-shadi-max.netlify.app/')}>
                             Live Demo
                         </button>
                     </div>
