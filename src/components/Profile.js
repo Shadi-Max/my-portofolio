@@ -37,7 +37,7 @@ function Profile () {
                     <div className='social-links'>
                         <button className='s-btn' onClick={() => window.open('https://github.com/Shadi-Max')}>
                         <i className="fa-brands fa-github"></i>
-                        </button><button className='s-btn' onClick={() => window.open('https://www.linkedin.com/in/shadi-max-0572a82a4/')}>
+                        </button><button className='s-btn' onClick={() => window.open('https://linkedin.com/in/shadi-max-89700021b')}>
                         <i className="fa-brands fa-linkedin"></i>
                         </button>
                     </div>
