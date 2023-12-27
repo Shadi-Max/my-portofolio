@@ -18,7 +18,7 @@ function Footer () {
                     <div className='contact-link-container'>
                         <i className="fa-brands fa-linkedin"></i>
                         <li>
-                            <a href="https://www.linkedin.com/in/shadi-max-0572a82a4/">linkdIn</a>
+                            <a href="https://linkedin.com/in/shadi-max-89700021b">linkdIn</a>
                         </li>
                     </div>
                 </div>
