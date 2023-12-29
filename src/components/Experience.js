@@ -23,9 +23,9 @@ function Experience () {
                                 <p>Intermediate</p>
                             </div>
                             <div className='exp-card'>
-                                <i class="fa-solid fa-code"></i>
-                                <h3>Typescript</h3>
-                                <p>Basic</p>
+                                <i class="fa-brands fa-wordpress"></i>
+                                <h3>WordPress</h3>
+                                <p>Intermediate</p>
                             </div>
                         </div>
                         <div className='exp-col'>
